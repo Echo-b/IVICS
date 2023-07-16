@@ -1,13 +1,15 @@
 # 项目说明
 该项目位车地道口协同系统源代码部分，具体代码结构如下
 
-CrossingClient-道口监控网页客户端代码
-CrossingInfoServer-云端服务器代码
-ESP32_WIFIModule-esp32推送服务器代码
-RSUController-路侧单元代码
-TrainController-列车控制单元代码
-UpperComputer_Controller-上位机代码
-VehicleController-车辆控制单元代码
+| 名称                     | 说明                   |
+| ------------------------ | ---------------------- |
+| CrossingClient           | 道口监控网页客户端代码 |
+| CrossingInfoServer       | 云端服务器代码         |
+| ESP32_WIFIModule         | esp32推送服务器代码    |
+| RSUController            | 路侧单元代码           |
+| TrainController          | 列车控制单元代码       |
+| UpperComputer_Controller | 上位机代码             |
+| VehicleController        | 车辆控制单元代码       |
 
 # 整体工作流程
 摄像头捕获当前路口信息，如栏杆状态，灯的状态，有无车辆等，将其封装发送给主控单元，主控单元对数据进一步解析，进而控制路口栏杆和灯动作，将当前道口信息封装发送给esp32,esp32拿到信息后将其在局域网内广播，电脑后端拦截到广播消息，进行解析，封装成json对象，主动发送给前端，前端页面对信息实时进行更新。（前后端通过websocket建立实时连接）
