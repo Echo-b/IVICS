@@ -1,0 +1,9 @@
+{
+	"files.associations": {
+		"*.vue": "html",
+		"24l01.h": "c",
+		"delay.h": "c",
+		"stm32f10x.h": "c",
+		"string.h": "c"
+	}
+}

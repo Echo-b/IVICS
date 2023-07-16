@@ -1,0 +1,141 @@
+POST http://localhost:8080/crossing
+Content-Type: application/json
+Content-Length: 307
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "crossingStatus":"fasdfa",
+    "ledStatus":"fasd",
+    "barrierStatus":"sdf",
+    "vehicleNum":2,
+    "time":"sdf",
+    "address":"ds",
+    "vehicleInflows":[
+     {
+       "id":1,
+       "kind":"a",
+       "speed":100
+     },
+     {
+       "id":2,
+       "kind":"b",
+       "speed":200
+     }
+    ]
+}
+
+###
+
+POST http://localhost:8080/crossing
+Content-Type: application/json
+Content-Length: 307
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "crossingStatus":"fasdfa",
+    "ledStatus":"fasd",
+    "barrierStatus":"sdf",
+    "vehicleNum":2,
+    "time":"sdf",
+    "address":"ds",
+    "vehicleInflows":[
+     {
+       "id":1,
+       "kind":"a",
+       "speed":100
+     },
+     {
+       "id":2,
+       "kind":"b",
+       "speed":200
+     }
+    ]
+}
+
+###
+
+POST http://localhost:8080/crossing
+Content-Type: application/json
+Content-Length: 307
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "crossingStatus":"fasdfa",
+    "ledStatus":"fasd",
+    "barrierStatus":"sdf",
+    "vehicleNum":2,
+    "time":"sdf",
+    "address":"ds",
+    "vehicleInflows":[
+     {
+       "id":1,
+       "kind":"a",
+       "speed":100
+     },
+     {
+       "id":2,
+       "kind":"b",
+       "speed":200
+     }
+    ]
+}
+
+###
+
+POST http://localhost:8080/crossing
+Content-Type: application/json
+Content-Length: 307
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "crossingStatus":"fasdfa",
+    "ledStatus":"fasd",
+    "barrierStatus":"sdf",
+    "vehicleNum":2,
+    "time":"sdf",
+    "address":"ds",
+    "vehicleInflows":[
+     {
+       "id":1,
+       "kind":"a",
+       "speed":100
+     },
+     {
+       "id":2,
+       "kind":"b",
+       "speed":200
+     }
+    ]
+}
+
+###
+
+POST http://localhost:8080/crossing
+Content-Length: 162
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "crossingStatus":"fasdfa"
+    "ledStatus":"fasd"
+    "barrierStatus":"sdf"
+    "vehicleNum":2
+    "time":"sdf"
+    "address":"ds"
+    "vehicleInflows":[]
+};
+
+<> 2023-07-13T115458.500.json
+
+###
+

@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"*.vue": "html",
+		"24l01.h": "c",
+		"delay.h": "c",
+		"lcd.h": "c",
+		"string.h": "c",
+		"usart.h": "c",
+		"nrf24l01.h": "c"
+	}
+}

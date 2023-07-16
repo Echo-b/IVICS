@@ -1,0 +1,27 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Program Files (x86)\Keli5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling VehicleInformation.c...
+Information\VehicleInformation.c(1): error:  #5: cannot open source input file "Vehicle.h": No such file or directory
+  #include "Vehicle.h"
+Information\VehicleInformation.c: 0 warnings, 1 error
+compiling main.c...
+.\Message\Head.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Message\Payload.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Message\Message.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Information\VehicleInformation.h(13): warning:  #1295-D: Deprecated declaration initVehicleInfos - give arg types
+  void initVehicleInfos();
+.\Information\VehicleInformation.h(14): error:  #20: identifier "Message" is undefined
+  void updateVehicleInfos(Message *message);
+.\Information\VehicleInformation.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(41): error:  #20: identifier "text" is undefined
+      if (NRF24L01_RxPacket(text) == 0) {
+User\main.c(84): error:  #65: expected a ";"
+  }
+User\main.c: 5 warnings, 3 errors
+".\Objects\Project.axf" - 4 Error(s), 5 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
