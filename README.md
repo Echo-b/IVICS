@@ -45,7 +45,9 @@
 - 首先要进行`esp32`的配网，该部分需要将`ESP32_WIFIModule`中`src`文件夹下的`Message.h`中的`sendMsg()`函数中的`ip`地址替换为自己本机的`ip`地址，如下所示,需将`http.begin`中的`ip`替换。只需替换`ip`，端口无需替换。
 查看本地`ip`方法为，打开电脑`cmd` 窗口，输入`ipconfig`指令即可找到。   
 ![esp32](image/esp32.png)
+
 - 改动`ip`地址后，将整个项目重新进行编译，然后烧录到`esp32`开发板中进行配网。
-- 打开前端项目`CrossingClient`将`src`文件夹下的`App.vue`中`Init`方法中的`ip`地址替换为自己本地的`ip`地址，方法同上。如下所示
+
+- 打开前端项目`CrossingClient`将`src`文件夹下的`App.vue`中`initWebSocket方法中的`ip`地址替换为自己本地的`ip`地址，方法同上。如下所示
 ![client](image/client.png)
   
