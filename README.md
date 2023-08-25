@@ -62,3 +62,4 @@
 |IDEA|最新版本就行|打开项目并下载对应jdk版本|
 |vscode|最新版本就行||
 |platformIO|vscode插件商店下载最新就行|[配置参考链接](https://zhuanlan.zhihu.com/p/509527710)|
+|Keil|||
