@@ -50,6 +50,15 @@
 
 - 打开前端项目`CrossingClient`将`src`文件夹下的`App.vue`中`initWebSocket方法中的`ip`地址替换为自己本地的`ip`地址，方法同上。如下所示
 ![client](image/client.png)
+
 - 打开yoloe5文件夹，修改detect.py文件里的端口号，将端口号改为电脑链接摄像头的端口号
 ![esp32](image/detect.png)
   
+# 项目需求环境
+|内容|版本|备注|
+|-|-|-|
+|python|3.8或更高|下载pip并换源|
+|node|18.16.x|下载npm并换源|
+|IDEA|最新版本就行|打开项目并下载对应jdk版本|
+|vscode|最新版本就行||
+|platformIO|vscode插件商店下载最新就行|[配置参考链接](https://zhuanlan.zhihu.com/p/509527710)|
