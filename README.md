@@ -63,3 +63,5 @@
 |vscode|最新版本就行||
 |platformIO|vscode插件商店下载最新就行|[配置参考链接](https://zhuanlan.zhihu.com/p/509527710)|
 |Keil|||
+|烧录软件||见tools文件|
+|各类驱动||见tools文件|
